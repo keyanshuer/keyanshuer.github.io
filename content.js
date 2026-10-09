@@ -7,11 +7,11 @@ window.MAGAZINE = {
       metrics:[['11.6','GHz','径向有效吸收带宽 · 4.95 mm'],['−64.1','dB','切向最小反射损耗 · 3.15 mm']], takeaway:'从调控化学组成，走向继承天然结构、选择方向与协同功能。'},
     {page:4, layout:'diagram-first', category:'智能设计', english:'INTELLIGENT DESIGN', title:'尾矿的下一站，\n低碳胶凝材料', deck:'把强度、成本和碳排放放进同一个设计问题。', image:'assets/_ncLxFEIt8T2pWfqnjrzqQ.png', imageAlt:'矿山尾矿胶凝材料机器学习预测和多目标优化的研究框架', caption:'图 1 · 数据、模型与多目标配比优化的研究框架。', captionEnglish:'Fig. 1. Overview of the research framework.', institution:'University of Alberta', journal:'Cement and Concrete Composites', source:'https://mp.weixin.qq.com/s/_ncLxFEIt8T2pWfqnjrzqQ', doi:'10.1016/j.cemconcomp.2025.106363',
       paragraphs:['矿山尾矿作为辅助胶凝材料，既关乎固废利用，也涉及水泥替代后的强度变化。团队从 25 篇文献中建立数据库，覆盖 11 类尾矿与 14 项输入特征，用 TabPFN 预测胶凝材料的单轴抗压强度。','在研究的测试集上，TabPFN 的 R² 为 0.973，RMSE 为 2.115 MPa。SHAP 分析用于解释养护时间、水含量、水泥与尾矿组成等因素的影响；模型随后与 NSGA-II 联用，寻找强度、成本和碳排放之间的 Pareto 最优配比。'],
-      publication:{year:'2026',title:'基于 Transformer 的机器学习模型用于优化含矿山尾矿辅助胶凝材料的胶凝材料配比设计'},
+      publication:{year:'2026',title:'A transformer-based machine learning model for optimizing the design of cementitious mixtures with mine tailings as supplementary cementitious materials'},
       metrics:[['399','组','文献实验数据'],['0.973','R²','测试集预测结果']], takeaway:'模型不仅预测性能，也参与材料配比决策。结果适用性仍需结合数据范围和实验验证。'},
     {page:5, layout:'feature-band', category:'土壤修复', english:'SOIL RESTORATION', title:'让盐碱土\n自己长出矿物', deck:'MgFe 生物炭：脱钠降碱，也让碳走向稳定。', image:'assets/7io2KJ7PxMDHdP4o6wcryQ.png', imageAlt:'MgFe 生物炭处理后的土壤淋洗、玉米盆栽和微生物响应研究图', caption:'图 1 · 土壤淋洗、盆栽表现及微生物响应。', captionEnglish:'Fig. 1. Soil leaching, pot performance and microbial responses.', institution:'上海交通大学', journal:'Nature Communications', source:'https://mp.weixin.qq.com/s/7io2KJ7PxMDHdP4o6wcryQ',
       paragraphs:['苏打盐碱土的高碱环境，也可以成为材料原位生长的条件。团队构建镁铁工程化生物炭 MgFeBC，诱导 Mg–Fe 层状双金属氢氧化物在土壤中自组装，将活性碳酸盐固定到矿物结构中。','据原文介绍，活性碳酸盐降低 19.8%，Na⁺ 置换能力提高 55.5%，玉米鲜重提高约 2.6 倍。与此同时，颗粒有机碳和矿物结合态有机碳增加，展示出盐碱胁迫缓解与碳稳定化的协同路径。'],
-      doi:'10.1038/s41467-026-72051-1', publication:{year:'2026',title:'基于矿化的生物炭助力苏打盐碱农田的可持续修复'},
+      doi:'10.1038/s41467-026-72051-1', publication:{year:'2026',title:'Mineralization-based biochar unlocks sustainable restoration of soda saline-alkaline farmlands'},
       metrics:[['19.8','%','活性碳酸盐降低'],['55.5','%','Na⁺ 置换能力提高']], takeaway:'让环境条件参与材料形成，将修复与矿化过程连接起来。'},
     {page:6, layout:'lead-side-image', secondary:{image:'assets/adsorption-mechanism.png',imageAlt:'四环素在富钙环糊精改性生物炭上的吸附机制示意图',caption:'图 5 · Ca 配位与 β-CD 包合 / 氢键协同。', captionEnglish:'Fig. 5. Schematic diagram of the adsorption mechanism of TC on Ca@CBC/β-CD.'}, category:'循环与净化', english:'CIRCULAR MATERIALS', title:'两种农业废物，\n一种净水材料', deck:'废棉秆与废蛋壳，携手捕获四环素。', image:'assets/92Z02TXyEIwMjwn7TZcqcw.png', imageAlt:'富钙环糊精改性生物炭吸附四环素的性能、动力学与循环研究图', caption:'图 1 · 吸附剂性能、动力学与五次循环表现。', captionEnglish:'Fig. 1. Adsorption performance analysis of CBC-based adsorbents toward TC.', institution:'塔里木大学等', journal:'Biochar', source:'https://mp.weixin.qq.com/s/92Z02TXyEIwMjwn7TZcqcw',
       paragraphs:['废棉秆提供碳骨架，废蛋壳提供富钙组分。团队通过 Ca 改性和微波辅助 β-环糊精接枝制备 Ca@CBC/β-CD，将农业废弃物转化为面向四环素污染的吸附材料。','材料的去除作用来自多种相互作用：Ca²⁺ 配位与桥联、β-环糊精的主客体包合，以及氢键协同。研究在 45 ℃ 下报告最大吸附容量为 161.91 mg/g，并结合机器学习、密度泛函理论和生命周期评价，分析预测表现、吸附机制与环境效益。'],
@@ -21,4 +21,6 @@ window.MAGAZINE = {
       metrics:[['3.57','kg·m⁻²·h⁻¹','研究报告的蒸发速率'],['17.9','°','杂化水凝胶接触角']], takeaway:'生物炭从辅助填料，成为调控界面能量与水分状态的功能骨架。'}
   ]
 };
+
+
 
